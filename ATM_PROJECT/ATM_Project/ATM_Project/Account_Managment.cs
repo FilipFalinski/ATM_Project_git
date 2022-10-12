@@ -8,19 +8,14 @@ using System.Windows.Forms;
 
 namespace ATM_Project
 {
-    public partial class Deposit : Form
+    public partial class Account_Managment : Form
     {
-        public Deposit()
+        public Account_Managment()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
