@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xQj1MQQY00KxeoJqF5TLmQi3+7iBeA1q8Rps0e1g37WleU93HSSv6ufTJAvdhkUgDYpv58qKNxCXSPEHnrWZRA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\falin\\Desktop\\ATM_PROJECT\\ATM_Project\\ATM_Project\\ATM_Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\falin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.30\\microsoft.netcore.app.host.win-x64.3.1.30.nupkg.sha512"
+  ],
+  "logs": []
+}
