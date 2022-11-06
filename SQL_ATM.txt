@@ -1,0 +1,31 @@
+
+
+DROP TABLE Accounts
+
+
+
+
+
+CREATE TABLE Accounts
+   (	AccountID NUMERIC(4) NOT NULL UNIQUE,
+ 	 Name VARCHAR(30) NOT NULL,
+ 	 Balance Numeric(12,2),
+	Pin Numeric (4) NOY NULL,
+	CONSTRAINT "PK_Acounts" PRIMARY KEY (Acc)
+  ) ;
+  
+
+
+INSERT INTO Accounts VALUES(0, 'Filip', '1234', 60.70);
+
+
+
+ 
+
+
+
+
+
+   	  
+	 
+	 COMMIT;
