@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ATM_Project
 {
-   /* public class AccountRepositoryInMemory : IAccountRepository
+    public class AccountRepositoryInMemory : IAccountRepository
     {
         readonly Dictionary<string, Account> data = new Dictionary<string, Account>();
 
@@ -14,10 +14,23 @@ namespace ATM_Project
             data[account.GetAccountId()] = account;
         }
 
-        public Account Load(String accountId)
+        public Account Load(String AccountID)
         {
-            return data[accountId];
+         
+            
+            
+            return data[AccountID];
+            
         }
-    }*/
+
+       
+        internal Account Load(object text)
+        {
+
+            
+            throw new NotImplementedException();
+             
+        }
+    }
 }
    

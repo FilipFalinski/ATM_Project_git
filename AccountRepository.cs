@@ -6,9 +6,9 @@ using System.Text;
 namespace ATM_Project
 {
     public interface IAccountRepository
-    {/*
+    {
         Account Load(String accountId);
 
-        void Save(Account account);*/
+        void Save(Account account);
     }
 }
